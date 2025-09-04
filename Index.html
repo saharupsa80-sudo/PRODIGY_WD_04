@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupsa Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="logo">Rupsa</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle" class="theme-btn">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <img src="Picture.png" alt="Profile photo" class="profile-img">
+      <h1>Hi, I'm <span>Rupsa Saha</span></h1>
+      <p>Web Developer | Designer | Learner</p>
+      <a href="#about" class="btn">Know More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Rupsa, a passionate web developer with skills in HTML, CSS, JavaScript, and modern web technologies. I love building clean and interactive websites that leave a lasting impression.</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Education</h3>
+        <p>Bachelor’s in Computer Science(Honours)</p>
+      </div>
+      <div class="card">
+        <h3>Experience</h3>
+        <p>Internship at Prodigy Infotech</p>
+      </div>
+      <div class="card">
+        <h3>Skills</h3>
+        <p>HTML, CSS, JS, Node.js</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+   <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h2>Project 1</h2>
+         <img src="Screenshot (68).png" alt="Project 1">
+        <h3>Responsive Landing Page</h3>
+        <p>A sleek, mobile-friendly landing page.</p>
+        <a href="#" class="btn">GitHub</a>
+      </div>
+      <div class="card">
+        <h2>Project 2</h2>
+        <img src="Screenshot (43).png" alt="Project 2">
+        <h3>Stopwatch</h3>
+        <p>Simple, sleek stopwatch to track time.</p>
+        <a href="#" class="btn">GitHub</a>
+      </div>
+      <div class="card">
+        <h2>Project 3</h2>
+        <img src="Screenshot (51).png" alt="Project 3">
+        <h3>Tic-Tac-Toe Game</h3>
+        <p>An interactive Tic-Tac-Toe game built using JavaScript.</p>
+        <a href="#" class="btn">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Rupsa. All rights reserved.</p>
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
